@@ -1,0 +1,632 @@
+    @media screen and (min-width: 992px) {
+        body {
+            background-color: #232931;
+        }
+        .navbar {
+            background-color: #393e46;
+        }
+        .navbar .navbar-brand {
+            color: #eeeeee;
+        }
+        .navbar .navbar-brand .navbar-nav .nav-item .nav-link {
+            text-decoration: none;
+            color: #eeeeee;
+        }
+        ul>li>a {
+            text-decoration: none;
+            color: white;
+            width: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .navbar .navbar-nav .nav-item .dropdown-menu {
+            background-color: #41444b;
+            color: #eeeeee;
+            padding: 0%;
+            border-radius: 10px;
+            margin: 0;
+        }
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+            text-align: center;
+            color: #eeeeee;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            padding: 5px 5px;
+        }
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+            background-color: #4b5d67;
+            border-radius: 10px;
+        }
+        ul>li>a:hover {
+            border-bottom: 2px solid lightcoral;
+            color: #eeeeee;
+        }
+        .login-box {
+            margin-top: 10%;
+            max-width: 600px;
+            margin: 5% auto;
+            background-color: #393e46;
+            border-radius: 10px;
+        }
+        .login-box .form-box {
+            color: #eeeeee;
+        }
+        .login-box .form-box form {
+            padding: 2% 5%;
+        }
+        .login-box .form-box .heading {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bolder;
+            padding-top: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .login-box .form-box form .errorlist {
+            border-radius: 10px;
+            list-style: none;
+            border-radius: 10px;
+            padding: 10px 10px;
+            background-color: #f0a9a4;
+        }
+        .login-box .form-box form label {
+            font-size: 18px;
+            display: block;
+            margin-top: 2px;
+        }
+        .login-box .form-box form input[type=text] {
+            margin: 0px;
+            font-size: 20px;
+            width: 100%;
+            outline: none;
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: none;
+        }
+        .login-box .form-box form input[type=password] {
+            margin: 0px;
+            font-size: 20px;
+            width: 100%;
+            outline: none;
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: none;
+        }
+        .login-box .form-box form input[type=checkbox] {
+            float: left;
+            margin: 5px 5px;
+            font-size: 30px;
+            padding: 2px 2px;
+        }
+        .login-box .form-box form .show-password {
+            color: #eeeeee;
+        }
+        .login-box .form-box form .forget-link {
+            display: block;
+            text-decoration: none;
+            float: right;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 2px;
+        }
+        .login-box .form-box form .forget-link:hover {
+            color: #a3d2ca;
+        }
+        .login-box .form-box form .btn-login {
+            background-color: #4ecca3;
+            max-width: 20%;
+            min-width: 200px;
+            border-radius: 20px;
+            margin: 30px 30%;
+            color: #eeeeee;
+            font-size: 18px;
+            transition: 0.5s;
+        }
+        .login-box .form-box form .btn-login:hover {
+            background-color: #a3d2ca;
+            color: #eeeeee;
+            transform: translateY(-0.25em);
+            transition: ease-in-out 0.8s;
+        }
+        .login-box .form-box .create-link {
+            padding: 4px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .login-box .form-box .create-link a {
+            text-decoration: none;
+            padding: 4px;
+            text-align: center;
+            font-size: 20px;
+            color: #02c56a;
+        }
+        .login-box .form-box .create-link a:hover {
+            border-bottom: 2px solid #eeeeee;
+            transform: translateY(-0.25rem);
+        }
+        /*
+    Signup page style sheet
+    style start here
+    */
+        .signup-box {
+            background-color: #393e46;
+            max-width: 600px;
+            margin: 4% auto;
+            border-radius: 10px;
+            color: #eeeeee;
+        }
+        .signup-box .heading {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+            text-align: center;
+            padding-top: 4px;
+            font-weight: bolder;
+        }
+        .signup-box form {
+            padding: 2% 5%;
+        }
+        .signup-box form .errorlist {
+            padding: 10px 10px;
+            list-style: none;
+            background-color: #f0a9a4;
+            border-radius: 10px;
+        }
+        .signup-box form .errorlist ul {
+            list-style: none;
+            padding: 2px 10px;
+            background-color: #f0a9a4;
+        }
+        .signup-box form label {
+            margin-top: 2px;
+        }
+        .signup-box form input {
+            margin: 0px;
+            font-size: 18px;
+            width: 100%;
+            outline: none;
+            padding: 8px 10px;
+            border-radius: 10px;
+            border: none;
+        }
+        .signup-box form .helptext {
+            color: rgb(109, 107, 107);
+            padding: 2px 2px;
+        }
+        .signup-box form .btn-signup {
+            background-color: #4ecca3;
+            display: block;
+            margin: 30px auto;
+            width: 200px;
+            border-radius: 20px;
+            color: #eeeeee;
+            cursor: pointer;
+        }
+        .signup-box form .btn-signup:hover {
+            transition: ease-in-out 0.8s;
+            background-color: #bfdcae;
+            transform: translateY(-0.25rem);
+        }
+        .signup-box .already-link {
+            text-align: center;
+            font-size: 1.4rem;
+            padding-bottom: 4px;
+        }
+        .signup-box .already-link a {
+            font-size: ;
+            padding: 2px;
+            color: #b4f390;
+        }
+        /*
+    home box style
+    */
+        .no-js #loader {
+            display: none;
+        }
+        .js #loader {
+            display: block;
+            position: absolute;
+            left: 100px;
+            top: 0;
+        }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('../icon/loader.gif') center no-repeat #fff;
+        }
+        .home-box .d-flex input {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .home-box .d-flex input:focus {
+            padding: 10px 10px;
+            font-size: 1.6rem;
+            outline: #02c56a;
+            border: 2px solid #02c56a;
+            border-radius: 10px;
+        }
+        .home-box .video-card {
+            background-color: #393e46;
+            width: 360px;
+            margin: 2% auto;
+        }
+        .home-box .video-card .card-header {
+            padding: 4px 6px;
+        }
+        .home-box .video-card .card-header .video-title {
+            color: #eeeeee;
+            padding: 8px 1px;
+            font-size: 1.5rem;
+        }
+        .home-box .video-card .card-header .created-at {
+            float: right;
+            color: #232931;
+        }
+        .home-box .video-card .card-footer {
+            padding: 6px 0px;
+            font-size: 1.4rem;
+        }
+        /*
+        user setting page
+        */
+        .usersetting-box {
+            width: 95%;
+            margin: 2% auto;
+            border-radius: 1em;
+            background-color: #393e46;
+        }
+        /*
+        upload video page
+        */
+        .videoupload-box {
+            width: 90%;
+            margin: 2% auto;
+            background-color: #393e46;
+            border-radius: 1em;
+            color: #eeeeee;
+        }
+        .videoupload-box form input {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .videoupload-box form textarea {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .videoupload-box form select {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .videoupload-box form option {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .videoupload-box form .btn-upload {
+            margin: 1% 40%;
+            width: 20%;
+        }
+        /* 
+        watch video page
+        */
+        .watchvideo-box {
+            background-color: #393e46;
+            width: 95%;
+            margin: 2% auto;
+            border-radius: 10%;
+        }
+        .watchvideo-box .card {
+            background-color: #393e46;
+        }
+        .watchvideo-box .card .card-header {
+            padding: 2px 10px;
+        }
+        .watchvideo-box .card .card-header a img {
+            float: left;
+            border: 2px solid #eeeeee;
+        }
+        .watchvideo-box .card .card-header h5 {
+            float: left;
+            color: #eeeeee;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            padding: 2px 10px;
+        }
+        .watchvideo-box .card .card-body {
+            padding: 0%;
+        }
+        .watchvideo-box .card .card-body video {
+            outline: none;
+        }
+        .watchvideo-box .card .card-footer {
+            padding: 0%;
+        }
+        .watchvideo-box .card .card-footer .d-flex {
+            padding: 10px 10px;
+        }
+        .watchvideo-box .card .card-footer .d-flex .btn {
+            outline: none;
+            background-color: #232931;
+            width: 100px;
+            border-radius: 10px;
+            margin-right: 2px;
+            border: none;
+        }
+        .watchvideo-box .card .card-footer .d-flex .btn:focus,
+        .btn:active {
+            outline: none !important;
+            box-shadow: none;
+        }
+        .watchvideo-box .card .card-footer .d-flex .btn small {
+            font-size: 1.8rem;
+            color: #eeeeee;
+            padding: 0px 3px;
+        }
+        .watchvideo-box .card .card-footer .d-flex .video-view {
+            outline: none;
+            text-align: center;
+            background-color: #232931;
+            width: 150px;
+            border-radius: 10px;
+            margin-right: 2px;
+            border: none;
+            padding: 8px 4px;
+            color: #eeeeee;
+        }
+        .watchvideo-box .card .card-footer .d-flex .video-view small {
+            font-size: 1.5rem;
+            margin-right: 1%;
+        }
+        .watchvideo-box .card .card-footer .video-description {
+            padding: 4px 10px;
+            font-size: 1.3rem;
+            color: #eeeeee;
+            text-justify: auto;
+        }
+        .editvideo-box {
+            background-color: #393e46;
+            width: 95%;
+            margin: 2% auto;
+            position: relative;
+            border-radius: 10px;
+        }
+        .editvideo-box h2 {
+            text-align: center;
+            color: #eeeeee;
+            font-size: 2.5rem;
+        }
+        .editvideo-box form label {
+            color: #eeeeee;
+            margin-top: 1em;
+        }
+        .editvideo-box form input {
+            padding: 10px 10px;
+            width: 100%;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .editvideo-box form .d-flex .video-thumbnail {
+            padding: 10px 10px;
+            margin-top: 5%;
+            height: calc(100% - 20px);
+            border: 2px solid #eeeeee;
+            border-radius: 10px;
+        }
+        .editvideo-box form .d-flex .video-thumbnail img {
+            height: 300px;
+            margin-top: 5%;
+            border-radius: 10px;
+        }
+        .editvideo-box form .d-flex .video-thumbnail img {
+            height: 300px;
+            margin-top: 5%;
+            border-radius: 10px;
+        }
+        /*
+    user profile
+    */
+        .userprofile-box {
+            width: 90%;
+            margin: 5% 5%;
+            border-radius: 1em;
+            background-color: #393e46;
+            box-shadow: 40px, 400px, 20%, #393e46;
+            color: #eeeeee;
+        }
+        .userprofile-box .user-name {
+            font-size: 2rem;
+            color: #eeeeee;
+        }
+        .userprofile-box .user-bio {
+            font-size: 1rem;
+        }
+        .userprofile-box .user-email {
+            font-size: 1.4rem;
+        }
+        .userprofile-box .btn-edit {
+            width: 25%;
+            transition: ease-in-out 0.2s;
+        }
+        .userprofile-box .btn-edit:hover {
+            transform: translateX(1rem);
+        }
+        /*
+        update user profile page
+        */
+        .update-userprofile-box {
+            width: 95%;
+            margin: 2% auto;
+            border-radius: 1em;
+            background-color: #393e46;
+        }
+        .update-userprofile-box form {
+            padding: 0px 4%;
+        }
+        .update-userprofile-box form label {
+            color: #eeeeee;
+            font-size: 1.2rem;
+        }
+        .update-userprofile-box form input {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .update-userprofile-box form .input-box {
+            max-height: 450px;
+            padding: 2%;
+            overflow-x: hidden;
+        }
+        .update-userprofile-box form .btn-update-profile {
+            margin: 2%;
+            transition: ease-in-out 2s;
+        }
+        .update-userprofile-box form .btn-update-profile:hover {
+            transform: translateX(2rem);
+        }
+        /*
+        change password page
+        */
+        .changepass-box {
+            border-radius: 1em;
+            background-color: #393e46;
+            width: 50%;
+            margin: 2% auto;
+            color: #eeeeee;
+        }
+        .changepass-box .btn-back {
+            padding: 4% 4%;
+            text-decoration: none;
+            color: #02c56a;
+        }
+        .changepass-box .heading {
+            color: #02c56a;
+            text-align: center;
+        }
+        .changepass-box form {
+            padding: 0px 4%;
+        }
+        .changepass-box form input {
+            padding: 10px 10px;
+            font-size: 1.4rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+        .changepass-box form .btn-changepass {
+            margin: 2% auto;
+            font-size: 1.1rem;
+        }
+        .d-video-thumbnail {
+            width: 260px;
+            height: 280px;
+        }
+        .profile-container {
+            content: '';
+            background-color: dimgrey;
+        }
+        .user-profile-img {
+            position: relative;
+            border: 2px solid floralwhite;
+            box-shadow: floralwhite;
+            border-radius: 5px;
+        }
+        .user-profile-img img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    /* On screens that are 992px or less, set the background color to blue */
+    
+    @media screen and (max-width: 992px) {
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #232931;
+        }
+        nav {
+            background-color: #393e46;
+        }
+        ul>li>a {
+            width: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul>li>a:hover {
+            border-bottom: 2px solid lightcoral;
+        }
+        .d-video-thumbnail {
+            width: 260px;
+            height: 280px;
+        }
+        .profile-container {
+            content: '';
+            background-color: dimgrey;
+        }
+        .user-profile-img {
+            position: relative;
+            border: 2px solid floralwhite;
+            box-shadow: floralwhite;
+            border-radius: 5px;
+        }
+        .user-profile-img img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    /* On screens that are 600px or less, */
+    
+    @media screen and (min-width: 600px) {
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #232931;
+        }
+        nav {
+            background-color: #393e46;
+        }
+        ul>li>a {
+            width: auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul>li>a:hover {
+            border-bottom: 2px solid lightcoral;
+        }
+        .d-video-thumbnail {
+            width: 260px;
+            height: 280px;
+        }
+        .profile-container {
+            content: '';
+            background-color: dimgrey;
+        }
+        .user-profile-img {
+            position: relative;
+            border: 2px solid floralwhite;
+            box-shadow: floralwhite;
+            border-radius: 5px;
+        }
+        .user-profile-img img {
+            width: 100%;
+            height: auto;
+        }
+    }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+    <script src="static/js/jquery.js"></script>
+    <script src="static/bootstrap/js/bootstrap.js"></script>
+
+    <style>
+        .no-js #loader {
+            display: none;
+        }
+        
+        .js #loader {
+            display: block;
+            position: absolute;
+            left: 100px;
+            top: 0;
+        }
+        
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('static/icon/loader.gif') center no-repeat #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=".se-pre-con"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand h2" href="index.html">Gamming Arena</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search video here" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+    <!-- -->
+    <header class="m-4">
+        <h1 class="text-center text-capitalize">My Videos</h1>
+    </header>
+    <div class="d-flex flex-wrap justify-content-around ">
+
+        <div class="card border-primar shadow-sm mb-2" style="width: 20rem;">
+            <iframe src="https://www.youtube.com/embed/D8TmeuGhvVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">7 views • Jul 31, 2020</small>
+            </div>
+        </div>
+        <div class="card shadow-sm mb-2" style="width: 20rem;">
+            <iframe src="https://www.youtube.com/embed/-X2nR7PgOKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">My First Own Record | 6 KILLS At One PLACE | SOLO VS SOLO | BAttle Royal</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">17 views • Aug 22, 2020</small>
+            </div>
+        </div>
+        <div class="card shadow-sm mb-2" style="width: 20rem;">
+            <iframe src="https://www.youtube.com/embed/_Rit1lnUEhY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+                <p class="card-text">"PUBG" Got UNBAN | OFFICIALY Annnounced by [PTA] \PUBG MOILE BAN UPDATES</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">7 views • Jul 31, 2020</small>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(window).on('load', function() {
+                // Animate loader off screen
+                $(".se-pre-con").fadeOut("slow");
+            });
+        })
+    </script>
+</body>
+
+</html>
